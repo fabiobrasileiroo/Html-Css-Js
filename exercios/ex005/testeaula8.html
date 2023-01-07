@@ -5,15 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=p, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        mark{
+            background-color: lime;
+        }
+    </style>
 </head>
 <body>
-    <p><strong>Negrito</strong></p>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um termo em <b>negrito</b> usando a tag B(sem semantica)</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque em Negrito</strong>(com semantica)</p>
+
+    <h2>Italico / Ênfase</h2>
+    <p><i>Italico</i> usando a tag i (sem semantica)</p>
+    <p><em>Nesta frase, temos um termo em ẽnfase usado a tag E</em>M</p>
     <p><em>Italico</em></p>
-    <p><mark>Marca texto</mark></p>
+
+    <h2>Texto marcado</h2>
+    <p><mark style="background-color: limegreen;">Marca texto</mark></p>
+    <p><mark>Marca testo criando com css em head</mark></p>
+    
+    <h2>Deixando texto pequeno e Grande (que não é estar mais em uso mas a liguagem pertimite ainda)</h2>
     <p><small>pequeno</small></p>
+    <p><big>Grande</big></p>
+
+    <h2>Texto deletado</h2>
     <p><del>deletado</del></p>
-    <p><ins>Texto inserido</ins></p>
+    <h2>Texto inserido</h2>
+    <p>Texto foi <u>inserido</u> (com semantica)</p>
+    <p>Esse testo foi <u>inserido</u>(sem semântica)</p>
+    <h2>Texto sobrescrito</h2>
     <p>x<sup>2</sup></p>
+    <H2>Texto subscrito</H2>
     <p>H<sub>2</sub>O</p>
     <h1>Exemplo de código em javacripts</h1><p><code><pre>
         var a = 3
@@ -39,7 +63,7 @@
 
     <h2>Texto Invertido</h2>
     <bdo dir="rtl">Este texto todo está ivertido no formtado RIGHT-TO=LEFT.
-        
+
     </bdo>
 </body>
 </html>
