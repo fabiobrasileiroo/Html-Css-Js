@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font: normal 1em Arial, Helvetica, sans-serif;
+    }
+
+    a {
+        font-weight: bold;
+        text-decoration: none;
+        color: red;
+    }
+
+    a:visited {
+        color: darkred;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+    .especial:hover {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+    .especial::before {
+        content: '>>';
+        font-weight: lighter;
+    }
+    .especial::after {
+        content: '<<';
+        font-weight:lighter;
+    }
+</style>
+<body>
+    <h1>Personalizando um link</h1>
+    <p>
+        Para aprender Html5 e Css3, acesse o 
+        <a href="https://gustavoguanabara.github.io">
+            GitHub do Guanabara
+        </a>
+    </p>
+    <p>
+        Se quiser conhecer mais sobre os padrões, visite o site do 
+        <a href="https:www.w3c.br">Escritório do W3C no Brasil</a>
+    </p>Para acompanhar os cursos, acesse o 
+        <a href="https:www.youtube.com/cursoemvideo/" class="especial">
+            canal do CusrsoemVideo
+        </a>
+</body>
+</html>
