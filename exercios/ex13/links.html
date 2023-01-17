@@ -5,13 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black; 
+        }
+
+        a:active {
+            color:yellow;
+        }
+
+        .especial {
+            background-color: rgb(200, 255, 0);
+        }
+        .especial::before {
+            content: '>> ';
+        }
+
+        .especial::after {
+            content: ' <<';
+        }
+    </style>
 </head>
 <body>
     <h1>Personaizando Links</h1>
     <ul>
-        <li><a href="https://fabiobrasileiroo.github.io/Portifolio/">Meu site</a></li>
-        <li><a href="https://www.youtube.com/channel/UCeJBTNHK4RFxo193R4fkXVg">Meu canal</a></li>
-        <li><a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s">Onde estudo HTML e CSS</a></li>
+        <li><a href="https://fabiobrasileiroo.github.io/Portifolio/" target="_blank">Meu site</a></li>
+        <li><a href="https://www.youtube.com/channel/UCeJBTNHK4RFxo193R4fkXVg" class="especial">Meu canal</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" class="especial">Onde estudo HTML e CSS</a></li>
     </ul>
 </body>
 </html>
