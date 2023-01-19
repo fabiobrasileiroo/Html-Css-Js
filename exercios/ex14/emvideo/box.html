@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="veiwport" content="width=device-width,initial-scale=1.0">
+<title>Box model</title>
+    <style>
+        h1 {
+            width:  300px;
+            height:100px;
+            background-color:darkgray;
+            border: 5px solid black;
+            padding-top: 10px;
+            padding-right: 5px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: lightblue;   
+            margin: 20px auto 40px auto ;  
+            text-align: center;
+        }
+
+        a {
+            border-width: 5px;
+            border-style: dashed ;
+            border-color:black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa de box-level</h1>
+    <p>O paragrafo é um box-level mas <a href="#">um link é inline-level</a>. Vamos ver como funcionar cada um.</p>
+</body>
+</html>
