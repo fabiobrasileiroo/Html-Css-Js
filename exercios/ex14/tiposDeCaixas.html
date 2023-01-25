@@ -3,13 +3,78 @@
 <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <meta name="viewport" content="width=device-width,intia l-scale=1.0">
         <title>Tipos de caixas</title>
+        <style>
+            body {
+                font-family:Arial,Helvetica, sans-serif;
+                background-color:darkgray;
+                margin:0px;
+            }
+
+            header {
+                background-color:white;
+                padding: 10px;
+                margin:10px;
+                box-shadow: 3px 3px 9px 1px black;
+            }
+            
+            nav {
+                background-color: gray;
+                padding:3px;
+                margin: 3px;
+            }
+            nav > a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                margin-right: 20px;
+            }
+
+            nav > a:hover{
+                text-decoration:underline;
+            }
+
+            main {
+                background-color: white;
+                padding:10px;
+                margin:10px;
+                box-shadow: 3px 6px 20px 1px black;
+                border-radius: 20px 0px;
+            }
+            section {
+                background-color:rgb(202, 199, 199);
+                padding-top: 1px;
+                padding-right: 3px;
+                padding-bottom: 5px;
+                padding-left: 3px;
+
+            }
+            article > aside {
+            background-color:rgb(134, 131, 131);
+            }
+
+            footer {
+                background-color: black;
+                color:white;
+                text-align: center;
+                
+            }  
+
+            div#bola {
+                background-color:white;
+                height:100px;
+                width: 100px;
+                margin: 10px;
+                border-radius:50%;
+            }
+
+        </style>
 </head>
 <body>
     <header>
         <h1> Meu site</h1>
-        <nav>link link link</nav>
+        <nav><a href="#">link</a> <a href="#"> link</a> <a href="#">link</a></nav>
     </header>
     <main>
         <section>
@@ -21,13 +86,15 @@
                 <h2>Título do artigo</h2>
                 <p>Texto do artigo</p>
             </article>
-        </section>
+       
         <aside>
             conteúdo periférico do site
         </aside>
+         </section>
     </main>
     <footer>
         conteudo do rodapé  
     </footer>
+    <div id="bola"></div>
 </body>
 </html>
