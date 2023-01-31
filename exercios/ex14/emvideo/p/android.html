@@ -6,24 +6,111 @@
     <meta name="viewport" content="width=device-width-initial-scale=1.0">
     <title>Android</title>
     <style>
-        * {
-            font-family: Arial, Helvetica, sans-serif;
+        :root {
+            --cor0: #c5ebd6;
+            --cor1: #83e1ad;
+            --cor2: #3ddc84;
+            --cor3: #2fa866;
+            --cor4: #1a5c37;
+            --cor5: #063d1e;
+            --fonte0: Arial, Helvetica, sans-serif;
+            --fonte1: 'Bebas Neue', curive;
+            --fonte2: 'Android', sans-serif;
+        }
+        body {
+            background-color: var(--cor1);
+            font-family: var(--fonte0);
+            color: var(--cor0);
+            
         }
         header {
+            font-family:'Bebas Neue',cursive;
+            min-width: 400px; 
+            max-width: 800px;
             text-align: center;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.463);
             background-image: linear-gradient(180deg,#4ede8e, #299156,#164e2f);
-            color: white
+            color: white;
+
         }
-       header > nav {
+        nav {
             text-align:justify;
-            
+            color:white;      
+       }
+       a {
+            text-decoration:none;
+            color:white;
+            padding-right:5px;
+       }
+       a:hover {
+            text-decoration:underline;
+            color:white;
+       }
+       main {
+            background-color: white;
+            padding:10px;
+            margin-top:-16px;
+       }
+       @font-face {
+        font-family: idroid;
+        src:  url(fontes/idroid.otf) format('truetype');
+       }
+       h2 {
+            font-family: idroid;
+            color:#1e5e3b;
+       }
+       h3 {
+        font-family: idroid;
+        color: #1e5e3b;
+        background-image: linear-gradient(90deg,#c6ebd6,#e4f1ea,white)
+       }
+       article#versao {
+        background-color:#c5ebd6;
+        border-radius: 10px;
+        padding:5px;
+        margin:0px;
+       }
+       h4 {
+        width: 100%;
+        background-color: #2fa866; 
+        color:white;
+        border-radius: 10px 10px 0px 0px;
+        display:block;
+        margin-block-start:0px;
+        margin-block-end:0px
+       }
+       div.video {
+        position:relative;
+        background-color: var(--cor4);
+        height: 0px;
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-bottom: 15px;
+        padding-bottom: 59%;
+       }
+       div.video > iframe {
+        position:absolute;
+        top: 5%;
+        left:5%;
+        width:90%;
+        height:90%;
+       }
+       ul {
+        list-style-type: '\2714\0020\0020';
+        columns: 2 ;
+        list-style-position: outside;
+       }
+       footer {
+        background-color:#164e2f;
+        text-align:center;
+        color:rgb(251, 251, 251);
        }
     </style>
 </head>
 <body>
     <header>
     <h1>CURIOSIDADES DE TECNOLOGIA</h1>
-    <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um ùnico lugar</p>
+    <p>Tudo aquilo que você sempre quis saber sobre o mundo<br> Tech, em um ùnico lugar</p>
     <nav>
         <p><a href="#">Home</a><a href="#"> Noticias</a><a href="#"> Curiosidades</a><a href="#"> Fale Conosco</a></p>
     </nav>
@@ -33,7 +120,7 @@
             <h2>Historia do Mascote Do ANDROID</h2>
             <p>lorem</p>
             <h3> a PRIMEIRA VERSÃO</h3>
-            <p>lorem</p> 
+            <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill<link>. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p> 
             <picture>
                  <source media="(max-width:750px )" srcset="imagens/dan-droids-pq.png" type="image/png">
                  <img src="imagens/dan-droids.png" alt="Primeira versão do Android"></img>
@@ -51,36 +138,35 @@
             </picture>
             <p>lorem</p>
         </article>
+        <div class="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        
-        <article>
+        </div> 
+        <article id="versao">
        <h4> Quer aprender mais?</h4> 
 
-<p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
-<ul>
-1.5 - Cupcake
-1.6 - Donut
-3.0 - Eclair
-2.2 - Froyo
-2.3 - Gingerbread
-3.0 - Honeycomb
-4.0 - Ice Cream Sandwich
-4.1 - Jelly Bean
-4.4 - KitKat
-5.0 - Lolipop
-6.0 - Marshmallow
-7.0 - Nougat
-8.0 - Oreo
-9.0 - Pie
 
+        <ul>
+            <li><a href="#">1.5 - Cupcake</a>
+            <li><a href="#">1.6 - Donut</a>
+            <li><a href="#">3.0 - Eclair</a>
+            <li><a href="#">2.2 - Froyo</a>
+            <li><a href="#">2.3 - Gingerbread</a>
+            <li><a href="#">3.0 - Honeycomb</a>
+            <li><a href="#">4.0 - Ice Cream Sandwich</a>
+            <li><a href="#">4.1 - Jelly Bean</a>
+            <li><a href="#">4.4 - KitKat</a>
+            <li><a href="#">5.0 - Lolipop</a>
+            <li><a href="#">6.0 - Marshmallew</a>
+            <li><a href="#">7.0 - Nougat</a>
+            <li><a href="#">8.0 - Oreo</a>
+            <li><a href="#">9.0 - Pie</a>
+        </ul>
 <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
 
 <p>Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
 
-<footer>
     Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.
-</footer>
-         
+        </article>
     </main>    
 
 <footer>Site criado por Gustavo Guanabara para o CursoemVideo.</footer>
