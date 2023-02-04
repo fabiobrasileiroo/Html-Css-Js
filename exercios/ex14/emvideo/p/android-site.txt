@@ -14,7 +14,7 @@ Provavelmente você sabe que o sistema operacional Android, mantido pelo Google 
 
 A primeira versão
 
-A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
+A primeira tentativa de criar um mascote surgiu em 2006 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
 
 [FOTO]
 
@@ -36,24 +36,24 @@ A principal inspiração para os traços do novo Bugdroid veio daqueles bonequin
  
 [EXTRA] Quer aprender mais? 
 
-Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
+Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 0.5 até a 9.0.
 
-1.5 - Cupcake
-1.6 - Donut
-3.0 - Eclair
-2.2 - Froyo
-2.3 - Gingerbread
-3.0 - Honeycomb
-4.0 - Ice Cream Sandwich
-4.1 - Jelly Bean
-4.4 - KitKat
-5.0 - Lolipop
-6.0 - Marshmallow
-7.0 - Nougat
-8.0 - Oreo
-9.0 - Pie
+0.5 - Cupcake
+0.6 - Donut
+2.0 - Eclair
+1.2 - Froyo
+1.3 - Gingerbread
+2.0 - Honeycomb
+3.0 - Ice Cream Sandwich
+3.1 - Jelly Bean
+3.4 - KitKat
+4.0 - Lolipop
+5.0 - Marshmallow
+6.0 - Nougat
+7.0 - Oreo
+8.0 - Pie
 
-Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.
+Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 9.
 
 Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.
 [/EXTRA]

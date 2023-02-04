@@ -2,10 +2,14 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equib="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width-initial-scale=1.0">
     <title>Android</title>
+    <link rel="stylesheet" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
     <style>
+      
         :root {
             --cor0: #c5ebd6;
             --cor1: #83e1ad;
@@ -14,46 +18,52 @@
             --cor4: #1a5c37;
             --cor5: #063d1e;
             --fonte0: Arial, Helvetica, sans-serif;
-            --fonte1: 'Bebas Neue', curive;
+            --fonte1: 'Bebas Neue', cursive;
             --fonte2: 'Android', sans-serif;
+        }
+        * {
+            margin: 0px; 
+            padding: 0px;
         }
         body {
             background-color: var(--cor1);
             font-family: var(--fonte0);
-            color: var(--cor0);
-            
+            color:black;
+
         }
         header {
-            font-family:'Bebas Neue',cursive;
-            min-width: 400px; 
-            max-width: 800px;
             text-align: center;
+            font-family:'Bebas Neue',cursive;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.463);
             background-image: linear-gradient(180deg,#4ede8e, #299156,#164e2f);
             color: white;
 
         }
         nav {
+            background-color: var(--cor5);
             text-align:justify;
             color:white;      
+            padding-bottom: 15px;
        }
-       a {
+        a {
             text-decoration:none;
             color:white;
             padding-right:5px;
        }
-       a:hover {
-            text-decoration:underline;
+        a:hover {
+            box-shadow: inset 20px -20px 0px rgba(2, 146, 2, 0.273) ;
             color:white;
        }
        main {
             background-color: white;
             padding:10px;
-            margin-top:-16px;
+            min-width: 320px;
+            max-width: 800px;
+            margin:auto;
        }
        @font-face {
         font-family: idroid;
-        src:  url(fontes/idroid.otf) format('truetype');
+        src:url(fontes/idroid.otf) format('truetype');
        }
        h2 {
             font-family: idroid;
@@ -83,8 +93,6 @@
         position:relative;
         background-color: var(--cor4);
         height: 0px;
-        margin-left: -20px;
-        margin-right: -20px;
         margin-bottom: 15px;
         padding-bottom: 59%;
        }
@@ -98,7 +106,10 @@
        ul {
         list-style-type: '\2714\0020\0020';
         columns: 2 ;
-        list-style-position: outside;
+        list-style-position: inside;
+       }
+       ul > li > a {
+        color:black;
        }
        footer {
         background-color:#164e2f;
@@ -118,57 +129,63 @@
     <main>
         <article>
             <h2>Historia do Mascote Do ANDROID</h2>
-            <p>lorem</p>
+            <p>Provavelmente você sabe que o sistema operacional <strong>Android</strong>, mantido pelo <strong>Google</strong> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
+            </p>
             <h3> a PRIMEIRA VERSÃO</h3>
-            <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill<link>. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p> 
+<p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank">Dan Morrill</a>. Ele conta que abriu o <a href="https://inkscape.org/pt-br/" target="_black">Inkscape</a>(software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p> 
             <picture>
-                 <source media="(max-width:750px )" srcset="imagens/dan-droids-pq.png" type="image/png">
+                 <source media="(max-width:850px )" srcset="imagens/dan-droids-pq.png" type="image/png">
                  <img src="imagens/dan-droids.png" alt="Primeira versão do Android"></img>
             </picture>
-            <p>lorem</p>
+            <p>A primeira tentativa de criar um mascote surgiu em 2006 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
+            </p>
             <h2>Surger um novo Mascote</h2>
-            <p>lorem</p>
+            <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="https://www.irinablok.com/android" target="_blank">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
             <picture>
-                <source media="(max-width:750px )" srcset="imagens/irina-blok-pq.jpg" type="image/jpeg">
+                <source media="(max-width:850px )" srcset="imagens/irina-blok-pq.jpg" type="image/jpeg">
                 <img src="imagens/irina-blok.jpg" alt="Irina a pessoaa que criou inlustração so android"></img>
             </picture>
-            <p>lorem</p>
+            <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.
+            </p>
             <picture>
             <img src="imagens/bugdroid.png" alt="Bugdroid"></img>
             </picture>
-            <p>lorem</p>
+            <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
         </article>
         <div class="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div> 
+
         <article id="versao">
-       <h4> Quer aprender mais?</h4> 
+         <aside>
+        <h4> Quer aprender mais?</h4> 
 
-
+       
         <ul>
-            <li><a href="#">1.5 - Cupcake</a>
-            <li><a href="#">1.6 - Donut</a>
-            <li><a href="#">3.0 - Eclair</a>
-            <li><a href="#">2.2 - Froyo</a>
-            <li><a href="#">2.3 - Gingerbread</a>
-            <li><a href="#">3.0 - Honeycomb</a>
-            <li><a href="#">4.0 - Ice Cream Sandwich</a>
-            <li><a href="#">4.1 - Jelly Bean</a>
-            <li><a href="#">4.4 - KitKat</a>
-            <li><a href="#">5.0 - Lolipop</a>
-            <li><a href="#">6.0 - Marshmallew</a>
-            <li><a href="#">7.0 - Nougat</a>
-            <li><a href="#">8.0 - Oreo</a>
-            <li><a href="#">9.0 - Pie</a>
+            <li><a href="#">1.5 -<abbr title="bolo de copo"> Cupcake</abbr></a>
+            <li><a href="#">1.6 -<abbr title="Rosquinha"> Donut</abbr></a>
+            <li><a href="#">3.0 -<abbr title="Bomba"> Eclair</abbr></a>
+            <li><a href="#">2.2 -<abbr title="Iogurte Congelado">Froyo</abbr></a>
+            <li><a href="#">2.3 -<abbr title="Biscoito de Gengibre"> Gingerbread</abbr></a>
+            <li><a href="#">3.0 -<abbr title="Favo de Mel"> Honeycomb</abbr></a>
+            <li><a href="#">4.0 -<abbr title="Sauduíche de Soverte"> Ice Cream Sandwich</abbr></a>
+            <li><a href="#">4.1 -<abbr title="Jujuba"> Jelly Bean</abbr></a>
+            <li><a href="#">4.4 -<abbr title="KitKat"> KitKat</abbr></a>
+            <li><a href="#">5.0 -<abbr title="Pirulito"> Lolipop</abbr></a>
+            <li><a href="#">6.0 -<abbr title="Marshmallow"> Marshmallew</abbr></a>
+            <li><a href="#">7.0 -<abbr title="Torrone"> Nougat</abbr></a>
+            <li><a href="#">8.0 -<abbr title="Oreo"> Oreo</abbr></a>
+            <li><a href="#">9.0 -<abbr title="Torta"> Pie</abbr></a>
         </ul>
-<p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
+    </aside>
+<p>Infelizmente, o <strong>Android Q</strong> não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
 
-<p>Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+<p>Acesse aqui o site <a href="https://www.android.com/intl/en_uk/history/#/donut">Android History</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
 
     Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.
         </article>
     </main>    
 
-<footer>Site criado por Gustavo Guanabara para o CursoemVideo.</footer>
+<footer>Site criado por <a href="https://github.com/fabiobrasileiroo" target="_black">Fábio Brasileiro</a> "Ainda meu cria lol".</footer>
 </body>
 </html>
