@@ -29,8 +29,7 @@
             background-color: var(--cor1);
             font-family: var(--fonte0);
             color:black;
-	        height: 98vh;
-	        background-position:center center;
+
         }
         header {
             text-align: center;
