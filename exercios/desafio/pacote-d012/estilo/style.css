@@ -56,7 +56,7 @@
         padding: 30px;
         font-size: 3.5vw;
     } 
-    section.imagem01 {
+    section#img1 {
        position: relative; 
        background-color: white;
        background-image: url('../imagens/background001.jpg'); 
@@ -73,10 +73,17 @@
         background-color: rgba(0, 0, 0, 0.546);
         color: white;
         font-family: var(--font3);
-
+        text-shadow: 1px 1px 0px rgb(0, 0, 0)
     }
-    section.imagem2 {
-        background-color: black;
+    section#img2 {
+        position: relative;
+        background-color: white;
+        background-image: url('../imagens/background002.jpg');
+        padding: 30px;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: cover;
+        background-attachment: fixed;
     }
     footer {
         background-color: black;
