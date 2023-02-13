@@ -1,0 +1,78 @@
+<DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela de filmes</title>
+<style>
+    body {
+        font-family: Arial;
+    }
+    table {
+        width: 500px;
+        border-collapse: collapse;
+    }
+    caption {
+        font-weight: bold;
+        padding: 5px;
+        text-decoration: underline;
+    }
+    th,td {   
+        border: 1px solid black;
+        padding: 8px;
+    }
+    th {
+        background-color: rgb(174, 174, 174);
+        color: rgb(0, 0, 0);
+    }
+    .f {
+        background-color: pink
+    }
+    .m {
+        background-color: lightblue;
+    }
+    .names {
+        background-color:rgba(255, 192, 203, 0.445);
+    }
+    .namess {
+        background-color: rgba(173, 216, 230, 0.514);
+    }
+    col.films {
+        background-color: #cc874329;
+    }
+</style>
+</head>
+<body>
+    <table>
+
+        <tr>
+            <colgroup>
+                <col class="">
+                <col class="">
+                <col class="films" span="3">
+            </colgroup>
+            <caption>Indicação de filmes do meus amigos</caption>
+            <th scope="col">Grupo
+            <th scope="col">Nomes
+            <th scope="colgroup" colspan="3">Filmes
+        <tr>
+            <th rowspan="2" class="f">Mulheres
+            <td class="names">Ana
+            <td >Alien
+            <td>Rambo
+            <td>Vingadores
+        <tr>
+            <td class="names"> Beatriz
+            <td>Hulk
+            <td>Inception
+            <td>Batman
+        <tr>
+            <th class="m" scope="row">Homes
+            <td class="namess">Bruno
+            <td>Intocáveis
+            <td>Amnésia
+            <td>Gladiador
+        <tr>
+    </table>
+</body>
+</html>
+
