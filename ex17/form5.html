@@ -1,0 +1,27 @@
+<!DOCTYPE hmtl>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forumulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <input type="radio" name="sexo" id="sxmas" value="H"> <label for="sxmas">Masculino</label><br>
+                <input type="radio" name="sexo" id="sxfem" value="F"> <label for="sxfem">Feminino</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esbas" id="iesbas" checked> <label for="iesbas">Basquete</label><br>
+            <input type="checkbox" name="esfut" id="iesfut" checked> <label for="iesfut">Futebol</label><br>
+            <input type="checkbox" name="esten" id="iesten" > <label for="iesten">Tênis</label><br>
+            <input type="checkbox" name="esnat" id="iesnat" > <label for="iesnat">Tênis</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
