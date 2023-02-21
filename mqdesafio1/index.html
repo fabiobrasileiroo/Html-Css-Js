@@ -1,0 +1,43 @@
+<DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="style/padrão.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+       <span id="burguer" class="material-icons" onclick="clickMenu()">menu </span>  
+        <menu id="itens">
+            <ul>
+            <li><a href="#">&nbsp;Opção 1</a>
+            <li><a href="#"> Opção 2</a>
+            <li><a href="#"> Opção 3</a>
+            <li><a href="#"> Opção 4</a>
+            <li><a href="#"> Opção 5</a>
+            </ul>
+            </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Usando Media Queries</h2>
+            <p>Uma media query consiste de um media type e pelo menos uma expressão que limita o escopo das folhas de estilo usando media features, tal como largura, altura e cor. Media queries, adicionadas no CSS3, deixam a apresentação do conteúdo adaptado a uma gama especifica de dispositivos não precisando mudar o conteúdo em si.
+            <h3>Sintaxe</h3>
+            <p>Media queries consistem de um media type e podem, a partir de uma especificação CSS3, contendo uma ou mais expressões, expressa em media features, que determinam ou verdadeiro ou falso. Os resultados da query são verdadeiros se o media type especificado na media query corresponde ao tipo do documento exibido no dispositivo e todas as expressões na media query são verdadeiras.</p>
+        </article>
+    <main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display= 'block'
+            }
+        }
+    </script>
+</body>
+</html>
