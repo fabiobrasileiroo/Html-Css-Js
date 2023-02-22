@@ -8,7 +8,7 @@
 html {
     height: 100vh;
 }
-body, header {
+header {
     background-color: rgb(132, 132, 132);
 }
 
@@ -55,6 +55,10 @@ header a {
 
 header a:hover{
     background-color: gray;
+}
+
+body ,main {
+    background-color: rgb(200, 200, 200);
 }
 main, article {
     padding: 10px;
