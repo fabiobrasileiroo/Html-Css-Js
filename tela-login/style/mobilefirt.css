@@ -2,24 +2,48 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body html{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-body {
-    background-color: rgb(0, 161, 209);
+
+body, html{
+    background-color:  #ECA65F;
+    height: 100vh;
+    width: 100vw;
 }
 
 main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    transform: translate(-50%,-50%);
     background-color: white;
-    width: 30vw;
-    margin: auto;
-    border-radius: 10px;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.455);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function:  ease;
+}
+section#login > div#imagem {
+    display: block;
+    background: #d6685c url(../image/login.jpg) no-repeat;
+    background-size: 210%, cover;
+    background-position: center center;
+    height: 200px;
 }
 
-main {
-    text-align: center;
-
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
