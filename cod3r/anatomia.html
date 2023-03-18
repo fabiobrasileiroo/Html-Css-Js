@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta chasert="UTF-8">
+    <title>Anao</title>
+</head>
+<body>
+    <header>
+        <h1>Ajax mas já</h1>
+    </header>
+    <nav>
+        <a href wm-nav="exercios/teste.html">00 -- teste</a> |
+        <a href wm-nav="exercios/teste02.html">Ajax com script em pagina</a>
+    </nav>
+    <section id="conteudo"></section>
+    <footer><br>
+        <p>Curso do web Moderno</p>
+    </footer>
+    <script>
+        document.querySelectorAll('[wm-nav]').forEach(link => {
+            const conteudo = document.getElementById('conteudo')
+
+            link.onclick = function(e) {
+                e.preventDefault()
+                fetch(link.getAttribute('wm-nav'))
+                    .then(resp => resp.text())
+                    .then(html => conteudo.innerHTML = html)
+            }
+        })
+    </script>
+</body>
+</html>
