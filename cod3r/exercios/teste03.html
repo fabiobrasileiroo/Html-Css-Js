@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Projetinho felas</title>
+</head>
+<body><!--desafio é fazer a lista expandir e retrair-->
+    <h1>Projeto</h1>
+<ul class="tree">
+    <ul>
+        <li><span wm-folder>backend</span>
+            <ul>
+                <li><span wm-folder>app</span>
+                    <ul>
+                        <li>produto.js
+                        <li>venda.js
+                        <li>cliente.js
+                    </ul>
+                <li><span wm-folder>.config</span>
+                    <ul>
+                        <li>codigoFonte.js
+                    </ul>
+            </ul>
+        <li><span wm-folder>frontend</span>
+            <ul>
+                <li><span wm-folder>public</span>
+                    <ul>
+                        <li>app.css
+                        <li>app.js
+                        <li>index.html
+                    </ul>
+            </ul>
+</ul>
+    <link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+    <script>
+        document.querySelectorAll('[wm-folder]').forEach(folder => {
+            folder.onclick = function(e) {
+                const ul = folder.nextElementSibling
+                const d = ul.style.display
+                ul.style.display = d === 'nome' ? 'block' : 'nome'
+            }
+        })
+    </script>
+</body>
+</html>
